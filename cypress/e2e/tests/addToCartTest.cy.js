@@ -3,7 +3,7 @@ const homePageObj = new homePage()
 import testData from '../../fixtures/testData.json'
 
 
-describe(' test automation', () => {
+describe(' test automation for cypress', () => {
     before(() => {
         cy.login(testData.login.username, testData.login.password)
     })
