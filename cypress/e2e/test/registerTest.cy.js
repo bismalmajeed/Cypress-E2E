@@ -8,8 +8,6 @@ import registerData from '../../fixtures/registerData.json'
 
 describe(' test automation', () => {
 
-
-
     it('register flow', () => {
         registerObj.openURL()
         registerObj.enterFirstName(registerData.firstName)

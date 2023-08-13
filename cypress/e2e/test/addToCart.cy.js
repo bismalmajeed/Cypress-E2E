@@ -6,7 +6,7 @@ import { homePage } from "../../pages/homePage"
 const homePageObj = new homePage()
 import testData from '../../fixtures/testData.json'
 
-describe(' test automation', () => {
+describe(' test automations of the ecommerce website', () => {
 
         before(() => {
         cy.login(testData.login.username, testData.login.password)
