@@ -2,7 +2,7 @@ import { registerPage } from "../../pages/registerPage"
 const registerObj = new registerPage()
 import registerData from '../../fixtures/registerData.json'
 
-describe(' test automation cypress', () => {
+describe(' test automation', () => {
 
 
 

@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:addToCart": "npx cypress run --spec cypress/e2e/test/addToCart.cy.js",
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
+    "test:registerFlow": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js",
+    "test:browser": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js --browser chrome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bismalmajeed/Cypress-E2E.git"
+  },
+  "author": "Anshita Bhasin",
   "license": "ISC",
+  "homepage": "https://github.com/bismalmajeed/Cypress-E2E#readme",
   "devDependencies": {
-    "cypress": "^12.17.2",
+    "cypress": "^12.17.1",
     "cypress-mochawesome-reporter": "^3.5.1"
   }
 }
